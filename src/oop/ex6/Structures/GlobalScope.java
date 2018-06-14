@@ -7,14 +7,16 @@ public class GlobalScope {
 	private static ArrayList<Variable> globalVariables;
 
 	public GlobalScope(){
-
+		methods = new ArrayList<Scope>();
+		globalVariables = new ArrayList<Variable>();
 	}
 
-	public boolean addMethod(String text){
-		return true;
+	public void addMethod(Scope method){
+		methods.add(method);
 	}
 
 	public boolean addVariable(String text){
 		return true;
 	}
+
 }
