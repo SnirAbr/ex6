@@ -4,7 +4,7 @@ public class VariableChecker {
 
 	//this static class will make sure a variable given is actually legal. Sort of a 'factory'
 	//for variables, but without actually creating them
-	public static boolean checkVariable(Variable v){
+	public static boolean checkVariable(String type, String value){
 		return true;
 	}
 }

@@ -12,7 +12,12 @@ public class Sjavac {
 		}
 		String fileName = args[0];
 		File javaFile = new File(fileName);
-		int result = FileParser.parseFile(javaFile);
+		try {
+			int result = FileParser.parseFile(javaFile);
+		}
+		catch (IOException e){
+			System.err.println("IO error");
+		}
 	}
 
 }

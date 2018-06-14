@@ -19,4 +19,7 @@ public class GlobalScope {
 		return true;
 	}
 
+	public ArrayList<Scope> getMethods(){
+		return methods;
+	}
 }
