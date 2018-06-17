@@ -1,4 +1,4 @@
-package oop.ex6.Structures;
+package oop.ex6.structures;
 
 import java.util.*;
 
