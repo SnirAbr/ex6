@@ -12,7 +12,7 @@ public class Sjavac {
 		}
 		String fileName = args[0];
 		File javaFile = new File(fileName);
-		int result = FileParser.parseFile(javaFile);
+		//int result = FileParser.parseFile(javaFile);
 	}
 
 }

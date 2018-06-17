@@ -1,5 +1,5 @@
 package oop.ex6.main;
-import oop.ex6.Structures.GlobalScope;
+import oop.ex6.structures.GlobalScope;
 
 import java.io.*;
 import java.util.*;
@@ -15,7 +15,6 @@ public class FileParser {
 		while(scanner.hasNextLine()){
 			String line = scanner.nextLine();
 			if(bracketStack.empty()){
-
 			}
 		}
 
